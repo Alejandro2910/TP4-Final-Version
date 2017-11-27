@@ -1,3 +1,10 @@
+/**
+    Tarea Programada 4
+    En esta tarea programada se manejarán archivos csv, se les generaran datos estadísticos y literales dependiendo el tipo de dato.
+    Clase: La clase lector es la clase encargada de la lectura, escritura y generacion de datos probabilísticos y literales del archivo leido.
+    Autor: Alejandro Benavides-B61015
+    Version: v3
+**/
 #ifndef LECTOR_H
 #define LECTOR_Hd
 #include <istream>

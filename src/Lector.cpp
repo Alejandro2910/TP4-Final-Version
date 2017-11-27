@@ -1,15 +1,30 @@
 #include "Lector.h"
 
+/**
+    Este método se encarga de abrir el archivo de lectura asociado a un nombre proporcionado por el usuario
+    @param string nomarch es el nombre del archivo
+**/
 void Lector::abraParaLeer(string nomArch)
 {
     lect.open(nomArch);
 }
 
+/**
+    Este método se encarga de cerrar el archivo de lectura
+**/
 void Lector::cierreLeido()
 {
     lect.close();
 }
 
+/**
+    Este metodo se encarga de leer la primera linea del archivo, que contiene los nombres de los parametros a leer,
+    y los guarda en un vector para luego pasarles ese parametro a cada objeto.
+    @param string nombres se encarga de guardar los nombres.
+    @param istringstream x toma el string de datos y lo hace un input string para poder usar el método getline sobre
+    el de nuevo.
+    @param string separador guarda los datos separados por coma para meterlos en el vector de nombres.
+**/
 void Lector::leaNombres(){
     if(lect){
         string nombres="";
@@ -24,6 +39,14 @@ void Lector::leaNombres(){
     }
 }
 
+/**
+    Este metodo se encarga de leer la segund linea del archivo, que contiene los tipos de datos que son los parametros.
+    Siendo 1 un dato string y 2 un dato float
+    @param string tipos se encarga de guardar los tipos.
+    @param istringstream y toma el string de datos y lo hace un input string para poder usar el método getline sobre
+    el de nuevo.
+    @param string intermediario guarda los datos separados por coma para meterlos en el vector de tipos.
+**/
 void Lector::leaTipo(){
     if(lect){
         string tipos="";
@@ -38,6 +61,14 @@ void Lector::leaTipo(){
     }
 }
 
+/**
+    Este metodo se encarga de leer de la tercera linea en adelante, que contiene los datos de los objetos y los almacena en
+    objetos para luego guardarlos en una lista de objetos.
+    @param string tipos se encarga de guardar los tipos.
+    @param istringstream y toma el string de datos y lo hace un input string para poder usar el método getline sobre
+    el de nuevo.
+    @param string intermediario guarda los datos separados por coma para meterlos en el vector de tipos.
+**/
 void Lector::leaObjetos(list<Objeto> &lisObj){
     if(lect){
         Objeto o;

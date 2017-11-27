@@ -1,3 +1,12 @@
+/**
+    Tarea Programada 4
+    En esta tarea programada se manejarán archivos csv, se les generaran datos estadísticos
+    y literales dependiendo el tipo de dato.
+    Clase:La clase objeto contiene lo necesario para guardar los datos de cualquier objeto leido.
+    Asi como un método para mostrarlos.
+    Autor: Alejandro Benavides-B61015
+    Version: v3
+**/
 #ifndef OBJETO_H
 #define OBJETO_H
 #include <vector>
