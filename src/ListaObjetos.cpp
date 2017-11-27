@@ -31,7 +31,7 @@ string ListaObjetos::getDatosNumericos(int par){
     float suma=0.0;
     float contador;
     float valorEsperado=0.0;
-    float proba=0.17;
+    float proba=1.0/listaDeObjetos.size();
     for(iter=listaDeObjetos.begin();iter!=listaDeObjetos.end();++iter){
         if(mayor<atof(((*iter).datos[par]).c_str())){
             mayor=atof(((*iter).datos[par]).c_str());
