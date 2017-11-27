@@ -1,0 +1,91 @@
+Los datos asociados a Country son:
+
+Afghanistan : 1
+Albania : 1
+Algeria : 1
+American Samoa : 1
+Andorra : 1
+Angola : 1
+
+Los datos asociados a Region son:
+
+ASIA (EX. NEAR EAST)         : 1
+EASTERN EUROPE                     : 1
+NORTHERN AFRICA                    : 1
+OCEANIA                            : 1
+WESTERN EUROPE                     : 1
+SUB-SAHARAN AFRICA                 : 1
+
+El mayor valor asociado a Population es 3.29301e+007 de Algeria  y el menor es 57794 de American Samoa 
+El promedio de Population es 1.33041e+007
+El valor esperado de Population es 1.35702e+007
+
+El mayor valor asociado a Area (sq.mi.) es 2.38174e+006 de Algeria  y el menor es 199 de American Samoa 
+El promedio de Area (sq.mi.) es 717559
+El valor esperado de Area (sq.mi.) es 731910
+
+El mayor valor asociado a Pop. Density(per sq. mi.) es 290.4 de American Samoa  y el menor es 9.7 de Angola 
+El promedio de Pop. Density(per sq. mi.) es 106.433
+El valor esperado de Pop. Density(per sq. mi.) es 108.562
+
+El mayor valor asociado a Coastline(coast/area ratio) es 58.29 de American Samoa  y el menor es 0 de 
+El promedio de Coastline(coast/area ratio) es 9.95333
+El valor esperado de Coastline(coast/area ratio) es 10.1524
+
+El mayor valor asociado a Net migration es 23.06 de Afghanistan  y el menor es -20.71 de American Samoa 
+El promedio de Net migration es 0.605
+El valor esperado de Net migration es 0.6171
+
+El mayor valor asociado a Infant mortality (per 1000 births) es 191.19 de Angola  y el menor es 4.05 de Andorra 
+El promedio de Infant mortality (per 1000 births) es 70.0167
+El valor esperado de Infant mortality (per 1000 births) es 71.417
+
+El mayor valor asociado a GDP($ per capita) es 19000 de Andorra  y el menor es 700 de 
+El promedio de GDP($ per capita) es 6683.33
+El valor esperado de GDP($ per capita) es 6817
+
+El mayor valor asociado a Literacy(%) es 100 de Andorra  y el menor es 36 de 
+El promedio de Literacy(%) es 71.9167
+El valor esperado de Literacy(%) es 73.355
+
+El mayor valor asociado a Phones per 1000 es 497.2 de Andorra  y el menor es 3.2 de Afghanistan 
+El promedio de Phones per 1000 es 152.833
+El valor esperado de Phones per 1000 es 155.89
+
+El mayor valor asociado a Arable % es 21.09 de Albania  y el menor es 2.22 de Andorra 
+El promedio de Arable % es 8.51167
+El valor esperado de Arable % es 8.6819
+
+El mayor valor asociado a Crops % es 15 de American Samoa  y el menor es 0 de Andorra 
+El promedio de Crops % es 3.355
+El valor esperado de Crops % es 3.4221
+
+El mayor valor asociado a Other % es 97.78 de Andorra  y el menor es 74.49 de Albania 
+El promedio de Other % es 88.1333
+El valor esperado de Other % es 89.896
+
+El mayor valor asociado a Climate es 3 de Albania  y el menor es 1 de 
+El promedio de Climate es 1.83333
+El valor esperado de Climate es 1.87
+
+El mayor valor asociado a Birthrate es 46.6 de Afghanistan  y el menor es 8.71 de Andorra 
+El promedio de Birthrate es 25.855
+El valor esperado de Birthrate es 26.3721
+
+El mayor valor asociado a Deathrate es 24.2 de Angola  y el menor es 3.27 de American Samoa 
+El promedio de Deathrate es 10.6483
+El valor esperado de Deathrate es 10.8613
+
+El mayor valor asociado a Agriculture es 0.38 de Afghanistan  y el menor es 0.0098 de Andorra 
+El promedio de Agriculture es 0.1573
+El valor esperado de Agriculture es 0.160446
+
+El mayor valor asociado a Industry es 0.765 de American Samoa  y el menor es 0.188 de Albania 
+El promedio de Industry es 0.4625
+El valor esperado de Industry es 0.47175
+
+El mayor valor asociado a Service es 0.9 de American Samoa  y el menor es 0.246 de Angola 
+El promedio de Service es 0.508833
+El valor esperado de Service es 0.51901
+
+
